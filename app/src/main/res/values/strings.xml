@@ -1,0 +1,34 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">R&amp;S logger</string>
+    <!-- activity_add_new.xml -->
+    <string name="saveActivity">Add</string>
+    <!-- activity_select.xml -->
+    <string name="writeNew">Add new&#8230;</string>
+    <string name="button01">Reading</string>
+    <string name="button02">Cooking</string>
+    <string name="button03">Exercising</string>
+    <string name="button04">Cleaning</string>
+    <string name="button05">Watching TV</string>
+    <string name="button06">Playing games</string>
+    <string name="button07">Social media</string>
+    <string name="button08">Internet</string>
+    <string name="button09">Socialize</string>
+    <string name="button10">Hobbies</string>
+    <string name="button11">Voluntary work</string>
+    <string name="button12">Walking</string>
+    <string name="button13">Needlework</string>
+    <string name="button14">Pets</string>
+    <string name="button15">Gardening</string>
+    <!-- activity_add_duration.xml -->
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <!-- statsView.xml -->
+    <string name="stress">Stresscounter:</string>
+    <!-- help screens -->
+    <string name="help1">Main help - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nibh quis viverra suscipit, ipsum metus commodo dui, eu varius mi justo ac sem. Donec in pulvinar ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam feugiat pulvinar dui, accumsan imperdiet nisi aliquam id</string>
+    <string name="help2">Add new - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nibh quis viverra suscipit, ipsum metus commodo dui, eu varius mi justo ac sem. Donec in pulvinar ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam feugiat pulvinar dui, accumsan imperdiet nisi aliquam id</string>
+    <string name="help3">Select activity - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nibh quis viverra suscipit, ipsum metus commodo dui, eu varius mi justo ac sem. Donec in pulvinar ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam feugiat pulvinar dui, accumsan imperdiet nisi aliquam id</string>
+    <string name="help4">Add duration - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nibh quis viverra suscipit, ipsum metus commodo dui, eu varius mi justo ac sem. Donec in pulvinar ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam feugiat pulvinar dui, accumsan imperdiet nisi aliquam id</string>
+    <string name="help5">Stats page - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat, nibh quis viverra suscipit, ipsum metus commodo dui, eu varius mi justo ac sem. Donec in pulvinar ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam feugiat pulvinar dui, accumsan imperdiet nisi aliquam id</string>
+</resources>

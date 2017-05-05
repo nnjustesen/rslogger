@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.x220.rslogger">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+<!-- Main screen -->
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- Add new activity -->
+
+        <activity
+            android:name=".addNewActivity"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+<!-- Select a new activity from list -->
+
+        <activity android:name=".selectActivity" />
+
+<!-- Add the duration of the activity -->
+
+        <activity android:name=".addDuration" />
+        <activity
+            android:name=".statsView"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+<!-- Main help screen -->
+
+        <activity
+            android:name=".help"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+<!-- Second help screen - for when adding new activity -->
+
+        <activity
+            android:name=".addNewHelp2"
+            android:parentActivityName=".addNewActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".addNewActivity" />
+        </activity>
+
+<!-- Third help screen - for when selecting new activity -->
+
+        <activity
+            android:name=".selectActivityHelp3"
+            android:parentActivityName=".selectActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".selectActivity" />
+        </activity>
+
+<!-- Fourth help screen - for when adding duration -->
+
+        <activity
+            android:name=".addDurationHelp4"
+            android:parentActivityName=".addDuration">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".addDuration" />
+        </activity>
+
+<!-- Fifth help screen - for when viewing the stats page -->
+
+        <activity
+            android:name=".statsViewHelp5"
+            android:parentActivityName=".statsView">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".statsView" />
+        </activity>
+    </application>
+
+</manifest>
